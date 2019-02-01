@@ -1,0 +1,33 @@
+.contenedor{
+	margin: auto;
+	width: 960px;
+	border:1px solid #000;
+	
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li{
+	width: 300px;
+	float: left;
+	border:1px solid #d1d1d1;
+	text-align: center;
+	margin: 9px;
+	border-radius: 3px;
+}
+
+ul li img{
+	border-radius: 20px;
+	width: 60%;
+	height: 70%;
+	
+}
+
+p{
+	text-align: justify;
+	margin: 7px;
+}

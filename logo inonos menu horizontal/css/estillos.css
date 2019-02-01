@@ -1,0 +1,67 @@
+body{
+
+	margin:0px;
+	padding: 0px;
+	background-color: #f4f4f4;
+}
+
+header,nav, article, footer{
+	width: 960px;
+	margin: auto;
+}
+
+
+nav{
+	height: 40px;
+	background-color:#555;
+
+}
+nav ul {
+	list-style: none;
+	margin: auto;
+	padding: 0px;
+	background-color: #000;
+	height: 40px;
+	width: 500px;
+
+	}
+nav ul li {
+	float: left;
+
+}	
+
+nav ul li a {
+	text-decoration: none;
+	
+	color: #fff;
+	line-height: 40px;
+	display: block;
+	width: 100px;
+	text-align: center;
+}
+
+nav ul li a:hover
+{
+		background: #777;
+		color:pink;
+}
+
+.active{
+	background-color: #777;
+	
+}
+.limpiar{
+	clear:both;
+}
+
+.logo{
+	float: left;
+	margin-top: 20px;
+}
+
+.redes{
+	float: right;
+}
+section img{
+	width: 960px;
+}
